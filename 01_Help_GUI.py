@@ -6,8 +6,8 @@ import random
 
 class converter:
     def __init__(self):
-        # Formatting variables...
-        background_color = "light blue"
+        # Formatting variables... This color is light orange
+        background_color = "#FFE6CC"
 
         # Converter Main Screen GUI...
         self.converter_frame = Frame(width=300, height=300, bg=background_color,
@@ -37,8 +37,8 @@ class converter:
 
 class Help:
     def __init__(self, partner):
-
-        background = "orange"
+        # This color is Lightish Yellow
+        background = "#EBFF6B"
 
         # disable help button
         partner.help_button.config(state=DISABLED)
@@ -46,8 +46,8 @@ class Help:
         # Sets up child window (ie: help box)
         self.help_box = Toplevel()
 
-        #If users press 'x' cross at the top, closes help and 'releases' help button.
-        self.help_box.protocol ('WM_DELETE_WINDOW', partial(self.close_help, partner))
+        # If users press 'x' cross at the top, closes help and 'releases' help button.
+        self.help_box.protocol('WM_DELETE_WINDOW', partial(self.close_help, partner))
 
         # Set up GUI Frame
         self.help_frame = Frame(self.help_box, bg=background)
