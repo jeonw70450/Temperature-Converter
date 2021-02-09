@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="973d17d0-4eed-4122-9a3f-00a2fee014df" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_c_to_f.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_f_to_c.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_Rounding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6_Number_Checker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Temperature-Converter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Temperature-Converter.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_Help_GUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/01_Help_GUI.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/02_Converter_GUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/02_Converter_GUI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6_Number_Checker.py" beforeDir="false" afterPath="$PROJECT_DIR$/6_Number_Checker.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,11 +98,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.6_Number_Checker">
+  <component name="RunManager" selected="Python.02_Converter_GUI">
     <configuration name="02_Converter_GUI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Temperature-Converter" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -199,9 +197,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="$USER_HOME$/PycharmProjects/pythonProject1/venv/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6_Number_Checker.py" />
@@ -215,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.02_Converter_GUI" />
         <item itemvalue="Python.6_Number_Checker" />
         <item itemvalue="Python.04_f_to_c" />
         <item itemvalue="Python.03_c_to_f" />
         <item itemvalue="Python.5_Rounding" />
-        <item itemvalue="Python.02_Converter_GUI" />
       </list>
     </recent_temporary>
   </component>
@@ -267,6 +265,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">

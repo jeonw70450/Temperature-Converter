@@ -1,4 +1,4 @@
-#Code checking the number inputs
+# Code checking the number inputs
 
 
 def temp_check(low):
@@ -17,12 +17,11 @@ def temp_check(low):
             print("Please enter a number")
 
 
-#Main routine
-#Run twice
+# Main routine
+# Run twice
 
 number = temp_check(-273)
 print("You chose {}".format(number))
-
 
 number = temp_check(-459)
 print("You chose {}".format(number))
