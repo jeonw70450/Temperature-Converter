@@ -36,7 +36,8 @@ class converter:
 
 
 class Help:
-    def __int__(self, partner):
+    def __init__(self, partner):
+
         background = "orange"
 
         # disable help button
@@ -45,13 +46,17 @@ class Help:
         # Sets up child window (ie: help box)
         self.help_box = Toplevel()
 
+        #If users press 'x' cross at the top, closes help and 'releases' help button.
+        self.help_box.protocol ('WM_DELETE_WINDOW', partial(self.close_help, partner))
+
         # Set up GUI Frame
         self.help_frame = Frame(self.help_box, bg=background)
         self.help_frame.grid()
 
         # Set up Help heading (row 0)
         self.how_heading = Label(self.help_frame, text="Help / Instructions",
-                                 font="arial" "10" "bold", bg=background)
+                                 font=("Arial", "15", "bold",),
+                                 bg=background)
         self.how_heading.grid(row=0)
 
         # Help text (label, row 1)
