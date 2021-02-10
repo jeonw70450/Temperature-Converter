@@ -1,0 +1,3 @@
+ 20 degrees C is 68 degrees F
+ 21 degrees C is 69.8 degrees F
+ 22 degrees C is 71.6 degrees F

@@ -1,0 +1,11 @@
+ 20 degrees C is 68 degrees F
+ 21 degrees C is 69.8 degrees F
+ 22 degrees C is 71.6 degrees F
+ 50 degrees F is 10 degrees C
+ 51 degrees F is 10.6 degrees C
+ 52 degrees F is 11.1 degrees C
+ 53 degrees F is 11.7 degrees C
+ -40 degrees F is -40 degrees C
+ -40 degrees C is -40 degrees F
+ -273 degrees C is -459.4 degrees F
+ -459 degrees F is -272.8 degrees C
